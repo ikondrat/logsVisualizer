@@ -7,7 +7,6 @@ const app: express.Application = express();
 app.use(compression());
 app.get(Routes.getLogsAll, (req, res) => {
   res.set("Content-Type", "application/json");
-  //
   res.set("Access-Control-Allow-Origin", "*");
   res.status(200).send(db.logs);
 });

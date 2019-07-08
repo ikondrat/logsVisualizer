@@ -1,7 +1,6 @@
 import { ConnectedRouter } from "connected-react-router";
 import { Route, Switch } from "react-router-dom";
 import { History } from "history";
-import Loading from "./components/Loading";
 import React, { lazy, Suspense } from "react";
 import Page from "pages/Home/components/Page";
 

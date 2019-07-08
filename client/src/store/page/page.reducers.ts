@@ -1,7 +1,5 @@
 import { produce } from "immer";
 import { Reducer } from "redux";
-import * as pageActions from "./page.actions";
-import Page from "pages/Home/components/Page";
 import { PageAction } from "./page.types";
 
 export type PageState = {

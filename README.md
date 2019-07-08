@@ -1,6 +1,10 @@
 # logsVisualizer
 
-## It's just example of project based on expressjs and react-scripts boilerplate
+It's just example of project based on expressjs and react-scripts boilerplate
+
+## Prerequisites
+1. Shell
+2. Last [LTS on nodejs](https://nodejs.org/en/) as projects runs fully on ts-node for dev mode
 
 ## How to run
 
